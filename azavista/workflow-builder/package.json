@@ -1,0 +1,37 @@
+{
+  "name": "@azavista/workflow-builder",
+  "version": "0.0.12",
+  "peerDependencies": {
+    "@angular/common": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/animations": "^16.2.0",
+    "@angular/cdk": "^16.2.0",
+    "@angular/material": "^16.2.0",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "@syncfusion/ej2-angular-diagrams": "^23.2.7",
+    "ng-resize-observer": "^1.2.0",
+    "@azavista/components": "^1.1.80",
+    "@azavista/servicelib": "^1.0.202",
+    "@azavista/workflow-builder-shared": "2.0.25",
+    "rxjs": "~7.8.0",
+    "zone.js": "~0.13.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/azavista-workflow-builder.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/azavista-workflow-builder.mjs",
+      "esm": "./esm2022/azavista-workflow-builder.mjs",
+      "default": "./fesm2022/azavista-workflow-builder.mjs"
+    }
+  }
+}

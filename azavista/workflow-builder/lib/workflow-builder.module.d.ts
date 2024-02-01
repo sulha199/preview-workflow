@@ -1,0 +1,35 @@
+import * as i0 from "@angular/core";
+import * as i1 from "./workflow-builder.component";
+import * as i2 from "./components/workflow-builder-palette/workflow-builder-palette.component";
+import * as i3 from "./components/workflow-builder-node-form/workflow-builder-node-form.component";
+import * as i4 from "./components/workflow-builder-node-form-header/workflow-builder-node-form-header.component";
+import * as i5 from "./components/workflow-builder-node-form-field-text/workflow-builder-node-form-field-text.component";
+import * as i6 from "./components/workflow-builder-node-form-field-select/workflow-builder-node-form-field-select.component";
+import * as i7 from "./components/workflow-builder-node-form-field-toggle/workflow-builder-node-form-field-toggle.component";
+import * as i8 from "./components/workflow-builder-node-form-field-process/workflow-builder-node-form-field-process.component";
+import * as i9 from "./components/workflow-builder-process-builder/workflow-builder-process-builder.component";
+import * as i10 from "./components/workflow-builder-process-builder-dialog/workflow-builder-process-builder-dialog.component";
+import * as i11 from "./pipes/apply-function.pipe";
+import * as i12 from "@angular/common";
+import * as i13 from "@angular/forms";
+import * as i14 from "@angular/material/form-field";
+import * as i15 from "@angular/material/input";
+import * as i16 from "@angular/material/button";
+import * as i17 from "@angular/material/icon";
+import * as i18 from "@angular/material/expansion";
+import * as i19 from "@angular/material/select";
+import * as i20 from "@angular/material/checkbox";
+import * as i21 from "@angular/material/list";
+import * as i22 from "@angular/material/slide-toggle";
+import * as i23 from "@angular/material/tabs";
+import * as i24 from "@angular/material/dialog";
+import * as i25 from "@ngx-translate/core";
+import * as i26 from "@syncfusion/ej2-angular-diagrams";
+import * as i27 from "@azavista/servicelib";
+import * as i28 from "@azavista/components/button";
+import * as i29 from "@azavista/components/flow-builder";
+export declare class AzavistaWorkflowBuilderModule {
+    static ɵfac: i0.ɵɵFactoryDeclaration<AzavistaWorkflowBuilderModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<AzavistaWorkflowBuilderModule, [typeof i1.WorkflowBuilderComponent, typeof i2.WorkflowBuilderPaletteComponent, typeof i3.WorkflowBuilderNodeFormComponent, typeof i4.WorkflowBuilderNodeFormHeaderComponent, typeof i5.WorkflowBuilderNodeFormFieldTextComponent, typeof i6.WorkflowBuilderNodeFormFieldSelectComponent, typeof i7.WorkflowBuilderNodeFormFieldToggleComponent, typeof i8.WorkflowBuilderNodeFormFieldProcessComponent, typeof i9.WorkflowBuilderProcessBuilderComponent, typeof i10.WorkflowBuilderProcessBuilderDialogComponent, typeof i11.ApplyFunctionPipe], [typeof i12.CommonModule, typeof i13.ReactiveFormsModule, typeof i13.FormsModule, typeof i14.MatFormFieldModule, typeof i15.MatInputModule, typeof i16.MatButtonModule, typeof i17.MatIconModule, typeof i18.MatExpansionModule, typeof i19.MatSelectModule, typeof i20.MatCheckboxModule, typeof i21.MatListModule, typeof i22.MatSlideToggleModule, typeof i23.MatTabsModule, typeof i24.MatDialogModule, typeof i25.TranslateModule, typeof i26.DiagramModule, typeof i26.SymbolPaletteModule, typeof i27.AzavistaServicelibModule, typeof i28.AzavistaButtonModule, typeof i29.AzavistaFlowBuilderModule], [typeof i1.WorkflowBuilderComponent]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<AzavistaWorkflowBuilderModule>;
+}

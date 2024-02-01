@@ -1,0 +1,30 @@
+import { NgZone, OnInit } from '@angular/core';
+import { MatSelect } from '@angular/material/select';
+import { WorkflowPropertySelect } from '@azavista/workflow-builder-shared';
+import { IAttributeTranslation } from '@azavista/components/shared';
+import { TranslateService } from '@ngx-translate/core';
+import { WorkflowBuilderNodeFormFieldBaseComponent } from '../workflow-builder-node-form-field-text/workflow-builder-node-form-field-text.component';
+import { AzavistaWorkflowBuilderFormFieldService } from '../../services/workflow-builder.form-field.service';
+import { AzavistaWorkflowBuilderController } from '../../workflow-builder.controller';
+import * as i0 from "@angular/core";
+export declare class WorkflowBuilderNodeFormFieldSelectComponent<T> extends WorkflowBuilderNodeFormFieldBaseComponent<T> implements OnInit {
+    private fieldSvc;
+    private controller;
+    private translateSvc;
+    private ngZone;
+    property?: WorkflowPropertySelect;
+    attributeTranslations?: IAttributeTranslation[];
+    currentLang: string;
+    trackByAttributeTranslations: (index: number, item: IAttributeTranslation) => string;
+    isExpanded: boolean;
+    selectElement?: MatSelect;
+    dataSourceIcon: Record<WorkflowPropertySelect['datasource'], string>;
+    dataSourceColor: Record<WorkflowPropertySelect['datasource'], string>;
+    constructor(fieldSvc: AzavistaWorkflowBuilderFormFieldService, controller: AzavistaWorkflowBuilderController, translateSvc: TranslateService, ngZone: NgZone);
+    ngOnInit(): Promise<void>;
+    onSelectOpen(): Promise<void>;
+    onItemSelected(itemTranslation: IAttributeTranslation): void;
+    isValueEmpty(controlValue: any | any[]): boolean;
+    static ɵfac: i0.ɵɵFactoryDeclaration<WorkflowBuilderNodeFormFieldSelectComponent<any>, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<WorkflowBuilderNodeFormFieldSelectComponent<any>, "azavista-workflow-builder-node-form-field-select", never, { "property": { "alias": "property"; "required": false; }; }, {}, never, never, false, never>;
+}
